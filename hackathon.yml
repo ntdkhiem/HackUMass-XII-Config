@@ -34,6 +34,4 @@ projects:
 # This is useful for judges and mentors who show up to the event and need an account
 # with more permissions, and can save time and effort of an organizer
 # Format is code:role granted
-codes:
-  rdSWfWZjCKpanZyC: mentor
-  hGMvjgyrVPbxaUBY: admin
+
