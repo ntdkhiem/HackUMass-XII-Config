@@ -230,17 +230,7 @@ custom_fields:
   - name: song_recommendation
     label: "Any song recommendations for us to play at the event?"
     type: "textarea"
-  - name: photo_consent
-    label: "Do you consent to being filmed or photographed during the hackathon event for promotional or documentation purposes?"
-    type: select
-    options:
-      - Yes, I do consent.
-      - No, I do not consent. 
-  name: photo_consent
-    label: "Do you consent to allowing HackUMass to share your resume with company sponsors for potential career opportunities or recruitment purposes?"
-    type: select
-    options:
-      - Yes, I do consent.
-      - No, I do not consent. 
-      - I did not upload my resume.
-
+  - name: consent_to_email
+    label: "Do you consent to receive emails from team@hackumass.com that contain information regarding this event? You will be able to opt-out at anytime through settings."
+    type: boolean
+    required: True
