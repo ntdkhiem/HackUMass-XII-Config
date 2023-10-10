@@ -220,7 +220,7 @@ custom_fields:
     type: "textarea"
     max_chars: 500
   - name: snacks_suggestion
-    label: "What snacks would you want to see at the event?"
+    label: "What snacks/food would you want to see at the event?"
     type: "textarea"
     max_chars: 500
   - name: prizes_suggestion
