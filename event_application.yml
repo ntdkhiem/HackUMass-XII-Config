@@ -121,7 +121,7 @@ custom_fields:
     required: True
     toggle_field: previous_hackumass_comments
   - name: previous_hackumass_comments
-    label: "Since you've attended HackUMass before, is there anything new or different you'd like to see at HackUMass X?"
+    label: "Since you've attended HackUMass before, is there anything new or different you'd like to see at HackUMass XI?"
     type: textarea
     max_chars: 500
     hidden: True
@@ -221,7 +221,4 @@ custom_fields:
   - name: song_recommendation
     label: "Any song recommendations for us to play at the event?"
     type: "textarea"
-  - name: consent_to_email
-    label: "Do you consent to receive emails from team@hackumass.com that contain information regarding this event? You will be able to opt-out at anytime through settings."
-    type: boolean
-    required: True
+
