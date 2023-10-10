@@ -84,7 +84,7 @@ custom_fields:
       - Hardware engineering
       - None, I am interested in something else
   - name: vaccination_status
-    label: "Are you fully vaccinated?"
+    label: "Are you fully vaccinated for Covid-19?"
     type: select
     required: True
     options:
