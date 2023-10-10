@@ -3,10 +3,6 @@ options:
   hide_mlh_toc: False
   min_resume_age: 17
 custom_fields:
-  - name: umass_student
-    options:
-      - Yes, I am a student at the University of Massachusetts, Amherst.
-      - No, I am not a student at the University of Massachusetts, Amherst.
   - name: pronouns
     label: "What are your preferred pronouns?"
     required: False
@@ -65,11 +61,6 @@ custom_fields:
     options:
       - Yes, I would require meal accommodations.
       - No, I do not require meal accommodations.
-  - name: dietary_restrictions
-    label: "Do you have any dietary restrictions?"
-    type: textarea
-    required: True
-    max_chars: 500
   - name: workshop_hosting
     label: "Are you interested in hosting a workshop/talk?"
     type: select
@@ -108,7 +99,7 @@ custom_fields:
     validate_regex: '\A(https:\/\/)?(www.)?github.com\/\S+\z'
     validate_error: "Your Github URL is invalid. Example format: https://github.com/yourprofile"
   - name: other_url
-    label: "Other website URL"
+    label: "Portfolio/Social Media Website URL"
   - name: been_to_hackathon
     label: "Have you been to a hackathon before?"
     type: boolean
@@ -162,7 +153,7 @@ custom_fields:
       - Circuits
       - 3D Printing
   - name: other_skills
-    label: "If there are any other tech-related skills not listed above that you would like to share, list them below"
+    label: "If there are any other tech-related skills not listed above that you would like to share, list them below:"
     type: textarea
     max_chars: 500
   name: hardwawre
@@ -179,7 +170,7 @@ custom_fields:
       - Yes, I have a team.
       - No, I do not have a team. (We can help you form a team!)
   - name: get_out_of_hum
-    label: "What would you like to get out of HackUMass X? (select all that apply)"
+    label: "What would you like to get out of HackUMass XI? (select all that apply)"
     type: multiselect
     options:
       - Learn more about hardware and hardware hacking
