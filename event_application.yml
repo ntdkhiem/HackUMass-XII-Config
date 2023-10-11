@@ -1,7 +1,7 @@
 options:
   hide_event_toc: False
   hide_mlh_toc: False
-  min_resume_age: 17
+  min_resume_age: 1000
 custom_fields:
   - name: pronouns
     label: "What are your preferred pronouns?"
@@ -48,6 +48,7 @@ custom_fields:
       - Other
   - name: country_residence
     label: "What is your country of residence?"
+    required: True
     type: "textarea"
   - name: underrepresent
     label: "Do you identify as part of an underrepresented group in the technology industry? "
