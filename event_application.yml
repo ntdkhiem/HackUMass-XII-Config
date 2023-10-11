@@ -46,6 +46,9 @@ custom_fields:
       - Gay/Lesbian
       - Bisexual
       - Other
+  - name: country_residence
+    label: "What is your country of residence?"
+    type: "textarea"
   - name: underrepresent
     label: "Do you identify as part of an underrepresented group in the technology industry? "
     required: False
