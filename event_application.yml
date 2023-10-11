@@ -73,7 +73,7 @@ custom_fields:
       - No, I am not interested in hosting a workshop/talk.
   - name: workshop_topic
     label: "If applicable, what is your workshop/talk about?"
-  name: workshop_topic_slides
+  - name: workshop_topic_slides
     label: "If you have slides/materials ready for a workshop/talk, please link them here."
   - name: hack_preference
     label: "What technologies are you interested in?"
