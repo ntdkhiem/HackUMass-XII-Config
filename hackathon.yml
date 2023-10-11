@@ -11,6 +11,13 @@ emails:
   email_verification: false
 slack:
   enabled: false
+discord:
+  enabled: true
+  server_id: 1160393364928208927
+  teamforming_channel_id: 1160393365821599871
+  ask_mentor_channel_id: 1160393366035513395
+  general_channel_id: 1160393365821599867
+  inivite_url: https://discord.gg/aqbbYnkKpd
 applications:
   mode: 'closed'
   # options: open, waitlist, or closed. defaults to closed.
