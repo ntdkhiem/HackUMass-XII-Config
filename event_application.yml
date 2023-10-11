@@ -159,7 +159,7 @@ custom_fields:
     label: "If there are any other tech-related skills not listed above that you would like to share, list them below:"
     type: textarea
     max_chars: 500
-  name: hardwawre
+  - name: hardwawre
     label: "Are you planning on using hardware?"
     type: select
     options: 
