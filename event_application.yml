@@ -49,7 +49,24 @@ custom_fields:
   - name: country_residence
     label: "What is your country of residence?"
     required: True
-    type: "textarea"
+    type: multiselect
+    options:
+      - United States of America
+      - Canada
+      - Mexico
+      - China
+      - South Korea
+      - India
+      - Japan
+      - Pakistan
+      - Vietnam
+      - Kuwait
+      - United Arab Emarites
+      - Taiwan
+      - Iran
+      - Germany
+      - Columbia
+      - Other
   - name: underrepresent
     label: "Do you identify as part of an underrepresented group in the technology industry? "
     required: False
