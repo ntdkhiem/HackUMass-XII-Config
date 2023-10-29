@@ -3,7 +3,7 @@ version: XI # Could also be a roman numeral or other number, will be concatenate
 main_website: https://hackumass.com
 dashboard_url: https://dashboard.hackumass.com
 logos:
-  primary_path: HackUMassLogo.png
+  primary_path: https://hackumass.com/assets/img/favicon.png
   nav_path: navlogo.png
   favicon_url: https://hackumass.com/assets/img/favicon.ico
 emails:
