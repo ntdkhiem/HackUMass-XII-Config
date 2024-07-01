@@ -1,5 +1,5 @@
 name: HackUMass
-version: XI # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
+version: XII # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
 main_website: https://hackumass.com
 dashboard_url: https://dashboard.hackumass.com
 logos:
@@ -12,7 +12,7 @@ emails:
 slack:
   enabled: false
 discord:
-  enabled: true
+  enabled: false
   server_id: 1160393364928208927
   teamforming_channel_id: 1160393365821599871
   ask_mentor_channel_id: 1160393366035513395
@@ -35,8 +35,8 @@ checkin:
     - UMass, Amherst
 projects:
   public: true
-  hacking_begins: "Nov 10, 2023 23:00:00"
-  hacking_ends: "Nov 12, 2023 11:00:00"
+  hacking_begins: "Nov 8, 2024 23:00:00"
+  hacking_ends: "Nov 10, 2024 11:00:00"
 # List all codes here which can be redeemed on Dashboard to grant permissions
 # This is useful for judges and mentors who show up to the event and need an account
 # with more permissions, and can save time and effort of an organizer
