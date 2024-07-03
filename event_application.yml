@@ -67,6 +67,8 @@ custom_fields:
       - Germany
       - Columbia
       - Other
+  - name: other_country_residence
+    label: "If you selected 'other' above, please enter your country of residence here."
   - name: underrepresent
     label: "Do you identify as part of an underrepresented group in the technology industry? "
     required: False
