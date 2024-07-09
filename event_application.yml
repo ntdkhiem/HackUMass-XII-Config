@@ -69,6 +69,7 @@ custom_fields:
       - Other
   - name: other_country_residence
     label: "If you selected 'other' above, please enter your country of residence here."
+    required: True
   - name: underrepresent
     label: "Do you identify as part of an underrepresented group in the technology industry? "
     required: False
