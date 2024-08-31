@@ -8,6 +8,7 @@ logos:
   favicon_url: https://hackumass.com/assets/img/favicon.ico
 emails:
   contact: team@hackumass.com
+  donotreply: DoNotReply@hackumass.com
   email_verification: false
 slack:
   enabled: false
@@ -19,7 +20,7 @@ discord:
   general_channel_id: 1160393365821599867
   invite_url: https://discord.gg/aqbbYnkKpd
 applications:
-  mode: 'closed'
+  mode: 'open'
   # options: open, waitlist, or closed. defaults to closed.
   # The applications are still not opened unless the applications feature
   # flag is enabled.

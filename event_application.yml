@@ -145,7 +145,7 @@ custom_fields:
     required: True
     toggle_field: previous_hackumass_comments
   - name: previous_hackumass_comments
-    label: "Since you've attended HackUMass before, is there anything new or different you'd like to see at HackUMass XI?"
+    label: "Since you've attended HackUMass before, is there anything new or different you'd like to see at HackUMass XII?"
     type: textarea
     max_chars: 500
     hidden: True
@@ -194,7 +194,7 @@ custom_fields:
       - Yes, I have a team.
       - No, I do not have a team. (We can help you form a team!)
   - name: get_out_of_hum
-    label: "What would you like to get out of HackUMass XI? (select all that apply)"
+    label: "What would you like to get out of HackUMass XII? (select all that apply)"
     type: multiselect
     options:
       - Learn more about hardware and hardware hacking
